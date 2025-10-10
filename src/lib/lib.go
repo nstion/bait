@@ -54,7 +54,7 @@ func GetInternetIP() (ip string) {
 	/*
 		查看主机对应的外网IP
 	*/
-	resp, _ := http.Get("http://ifconfig.me")
+	resp, _ := http.Get("http://ipinfo.io/ip")
 
 	defer resp.Body.Close()
 	body, _ := ioutil.ReadAll(resp.Body)
