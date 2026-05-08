@@ -1,4 +1,4 @@
-# src-http
+# bait
 
 Goalng 编写的简易 web 服务，一键部署 exp
 
@@ -6,7 +6,7 @@ Goalng 编写的简易 web 服务，一键部署 exp
 
 ```shell
 
-go install github.com/baiqll/src-http@latest
+go install github.com/baiqll/bait@latest
 
 ```
 
@@ -15,22 +15,22 @@ go install github.com/baiqll/src-http@latest
 ```shell
 
 # 默认启动
-src-http
+bait
 
 # 加载 payload
-src-http -payload "<img/src/onerror=alert(1)>"
+bait -payload "<img/src/onerror=alert(1)>"
 
 # 指定域名(自动本地dns域名绑定)、端口
-src-http -server example.com:8080
+bait -server example.com:8080
 
 # 使用https
-src-http -tls
+bait -tls
 
 # 使用自定义证书
-src-http -crt /home/crt.pem -key /home/key.pem
+bait -crt /home/crt.pem -key /home/key.pem
 
 # 指定默认模版
-src-http -default default.html
+bait -default default.html
 
 ```
 
