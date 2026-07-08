@@ -6,7 +6,7 @@ Goalng 编写的简易 web 服务，一键部署 exp
 
 ```shell
 
-go install github.com/baiqll/bait@latest
+go install github.com/nstion/bait@latest
 
 ```
 
@@ -43,7 +43,7 @@ bait -default default.html
 
 信息接收服务
 
-<img width="791" alt="image" src="https://user-images.githubusercontent.com/77313240/226531697-b5cf2d15-ed04-4006-ac91-1f552536d124.png">
+<img width="791" alt="image" src="">
 
 ftp 服务
 
