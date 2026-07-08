@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/baiqll/src-http/src/lib"
+	"github.com/nstion/bait/src/lib"
 )
 
 func HostMiddleware(host string, next http.Handler) http.Handler {
