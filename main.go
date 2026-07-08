@@ -9,21 +9,15 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/baiqll/src-http/src/cert"
-	"github.com/baiqll/src-http/src/httpx"
-	"github.com/baiqll/src-http/src/lib"
+	"github.com/nstion/bait/src/cert"
+	"github.com/nstion/bait/src/httpx"
+	"github.com/nstion/bait/src/lib"
 )
 
 func main() {
 
 	var banner = `
-
-    _____ ____  ________    __  __      
-   / ___// __ \/ ____/ /_  / /_/ /_____ 
-   \__ \/ /_/ / /   / __ \/ __/ __/ __ \
-  ___/ / _, _/ /___/ / / / /_/ /_/ /_/ /
- /____/_/ |_|\____/_/ /_/\__/\__/ .___/ 
-                                /_/       v1.0
+Bait v1.1
    
 Enabling https service dedicated to SRC testing
     `
