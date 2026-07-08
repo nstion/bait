@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/baiqll/src-http/src/lib"
+	"github.com/nstion/bait/src/lib"
 )
 
 var CACERT = `-----BEGIN CERTIFICATE-----
