@@ -1,4 +1,4 @@
-module github.com/baiqll/src-http
+module github.com/nstion/bait
 
 go 1.19
 
