@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/baiqll/src-http/src/lib"
+	"github.com/nstion/bait/src/lib"
 )
 
 type Uri struct{
